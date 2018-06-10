@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	tools:context=".SettingsActivity"
+	android:orientation="vertical">
+
+	<EditText
+		android:id="@+id/textPath"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:ems="10"
+		android:inputType="textPersonName"
+		android:text="@string/path" />
+
+	<TextView
+		android:id="@+id/textView2"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="@string/rewind_text_info" />
+
+	<EditText
+		android:id="@+id/editText_time"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:ems="10"
+		android:inputType="number" />
+
+	<CheckedTextView
+		android:id="@+id/checkBoxContinue"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:checkMark="@android:drawable/checkbox_off_background"
+		android:text="@string/text_loop"
+		android:textSize="16sp" />
+
+	<CheckedTextView
+		android:id="@+id/checkBoxRandom"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:checkMark="@android:drawable/checkbox_off_background"
+		android:text="@string/text_random"
+		android:textSize="16sp" />
+
+</LinearLayout>
